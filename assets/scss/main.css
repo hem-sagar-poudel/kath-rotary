@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --primary-color: #204d8b;
+  --primary-color-transparent: #1b4363d4;
+  --primary-light-color: #1b4363;
+  --secondary-color: #1a405e;
+  --secondary-light-color: #236294;
+  --tertiary-color: #295272;
+  --tertiary-light-color: #0d528a;
+  --light-blue-color: #5191fa;
+  --rating-color: #ffbf00;
+  --highlight-color: #4ea8f8;
+  --highlight-color-transparent: #4ea9f835;
+  --primary-text-color: #111827;
+  --secondary-text-color: #1a405e;
+  --link-color: #38c;
+  --link-color-hover: #236294;
+  --facebook-color: #4267b2;
+  --twitter-color: #00aaee;
+  --instagram-color: #e1306c;
+  --linkedin-color: #0077b5;
+  --teligram-color: #0088cc;
+  --weibo-color: #df2029;
+  --success-color: #198754;
+  --danger-color: #e1306c;
+  --warning-color: #ffbf00;
+  --shadow-lg: 0 1rem 3rem rgba(0,0,0,.175) !important;
+  --shadow-md: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+  --shadow-sm: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+* {
+  font-family: 'Poppins';
+  -webkit-transition: 0.1s ease-in-out 0s;
+  transition: 0.1s ease-in-out 0s;
+}
+
+body {
+  font-family: 'Poppins';
+}
+
+p {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.co-primary {
+  color: var(--primary-color) !important;
+}
+
+.co-secondary {
+  color: var(--secondary-text-color) !important;
+}
+
+.co-secondary-light {
+  color: var(--secondary-light-color) !important;
+}
+
+.co-rating {
+  color: var(--secondary-color) !important;
+}
+
+.co-white {
+  color: white;
+}
+
+.co-rate {
+  color: var(--rating-color);
+}
+
+.co-success {
+  color: var(--success-color);
+}
+
+.co-warning {
+  color: var(--warning-color);
+}
+
+.co-danger {
+  color: var(--danger-color);
+}
+
+.text-background {
+  background: #1b4464;
+  background: -webkit-gradient(linear, left top, right top, color-stop(23%, #1b4464), to(#236294));
+  background: linear-gradient(90deg, #1b4464 23%, #236294 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary-color {
+  background-color: var(--secondary-color) !important;
+}
+
+.bg-secondary-light-color {
+  background-color: var(--secondary-light-color) !important;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-primary_gradient {
+  background: #1b4464;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(53%, #1b4464), color-stop(132%, #236294)) !important;
+  background: linear-gradient(180deg, #1b4464 53%, #236294 132%) !important;
+}
+
+.bg-primary_gradient_top {
+  background: var(--primary-light-color);
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--primary-light-color)), to(var(--secondary-light-color)));
+  background: linear-gradient(180deg, var(--primary-light-color) 0%, var(--secondary-light-color) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(53%, var(--secondary-color)), color-stop(132%, var(--secondary-light-color))) !important;
+  background: linear-gradient(180deg, var(--secondary-color) 53%, var(--secondary-light-color) 132%) !important;
+}
+
+.bg-gradient-box {
+  background: -webkit-gradient(linear, left top, right top, from(#111827), color-stop(#1a405e), to(#111827)) !important;
+  background: linear-gradient(90deg, #111827, #1a405e, #111827) !important;
+}
+
+.link-text {
+  color: var(--link-color);
+}
+
+.link-text:hover {
+  color: var(--link-color-hover);
+}
+
+.button-primary {
+  background-color: var(--secondary-light-color);
+  color: white;
+}
+
+.button-primary-gradient {
+  background: #1a405e;
+  background: linear-gradient(117deg, var(--secondary-color) 0%, var(--secondary-light-color) 100%);
+  color: white;
+}
+
+.button-success {
+  background-color: var(--secondary-light-color);
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.choice-cancel_input input {
+  padding-right: 40px !important;
+}
+
+.choice-cancel_input button {
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+
+.choice-cancel_input button:hover {
+  color: var(--secondary-color);
+}
+
+.background-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.overlay:before {
+  content: '';
+  background: #d7e3ec;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.profle_history-table {
+  height: 300px;
+}
+
+.font-weight-100 {
+  font-weight: 100 !important;
+}
+
+.font-weight-200 {
+  font-weight: 200 !important;
+}
+
+.font-weight-300 {
+  font-weight: 300 !important;
+}
+
+.font-weight-400 {
+  font-weight: 400 !important;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+
+.font-weight-700 {
+  font-weight: 700 !important;
+}
+
+.font-weight-800 {
+  font-weight: 800 !important;
+}
+
+.font-weight-900 {
+  font-weight: 900 !important;
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.team-avatar img {
+  height: 300px !important;
+}
+
+.team-avatar img.member-image {
+  height: 300px !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
+.list-image {
+  height: 200px !important;
+  width: 100% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio-style-2 .portfolio-card .portfolio-card-header::before {
+  display: none !important;
+  height: 0px !important;
+}
+
+.portfolio-style-2 .portfolio-card .portfolio-card-header::before {
+  display: none !important;
+  height: 0px !important;
+}
+
+@-webkit-keyframes btn-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes btn-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

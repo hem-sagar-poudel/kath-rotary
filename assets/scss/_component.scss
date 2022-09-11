@@ -1,0 +1,32 @@
+.pointer{
+  cursor: pointer;
+}
+
+.team-avatar{
+  img{
+    height: 300px !important;
+  }
+  img.member-image{
+    height: 300px !important;
+    object-fit: cover !important;
+  }
+}
+
+.list-image{
+  height: 200px !important;
+  width: 100% !important;
+  object-fit: cover;
+}
+
+//gallery
+
+.portfolio-style-2 .portfolio-card .portfolio-card-header::before{
+  display: none !important;
+  height: 0px !important;
+}
+
+.portfolio-style-2 .portfolio-card .portfolio-card-header::before{
+  display: none !important;
+  height: 0px !important;
+}
+
