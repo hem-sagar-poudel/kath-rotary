@@ -16,6 +16,9 @@
 
         <div class="d-flex align-items-center">
           <ul class="social-icons">
+            <li class="social-icons-item social-twitter m-0">
+              <a class="social-icons-link w-auto ps-2" href="#">Donate Us</a>
+            </li>
             <li class="social-icons-item social-facebook m-0">
               <a class="social-icons-link w-auto px-2" href="#"><i class="fab fa-facebook-f"></i></a>
             </li>
@@ -25,6 +28,7 @@
             <li class="social-icons-item social-twitter m-0">
               <a class="social-icons-link w-auto ps-2" href="#"><i class="fab fa-twitter"></i></a>
             </li>
+
           </ul>
         </div>
       </div>
@@ -52,7 +56,6 @@
               <li><a class="dropdown-item" href="#">Past President</a></li>
               <li><a class="dropdown-item" href="#">Club Leadership</a></li>
               <li><a class="dropdown-item" href="#">Advisory Board</a></li>
-              <li><a class="dropdown-item" href="#">Members</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -64,10 +67,9 @@
               <li><a class="dropdown-item" href="#">Service Projects</a></li>
               <li><a class="dropdown-item" href="#">Rotary Foundation (TRF)</a></li>
               <li><a class="dropdown-item" href="#">New Generation</a></li>
+              <li><a class="dropdown-item" href="#">members</a></li>
+              <li><a class="dropdown-item" href="#">Our Partner</a></li>
             </ul>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#">members</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="blogMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Work</a>
@@ -94,9 +96,6 @@
               <li><a class="dropdown-item" href="#">Videos</a></li>
             </ul>
           </li> -->
-          <li class="nav-item ">
-            <a class="nav-link" href="#">Our Partner</a>
-          </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="blogMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partner In Service </a>
             <ul class="dropdown-menu" aria-labelledby="blogMenu">
@@ -108,9 +107,6 @@
           </li> -->
           <li class="nav-item ">
             <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#">Donate Us</a>
           </li>
         </ul>
       </div>

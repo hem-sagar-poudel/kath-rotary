@@ -1,5 +1,38 @@
 <?php include('head.php'); ?>
 <?php include('header.php'); ?>
+
+
+<!-- main banner -->
+<section class="p-0">
+  <div class="tiny-slider arrow-dark arrow-large arrow-transparent arrow-hover">
+    <div class="tiny-slider-inner h-400 h-lg-700" data-autoplay="true" data-autoplaytime="7000" data-gutter="0" data-arrow="true" data-dots="false" data-items="1">
+      <div class="h-100 bg-overlay-dark-2" style="background-image:url(image/IMG_9122.jpg); background-position: center center; background-size: cover;">
+        <div class="container h-100">
+          <div class="row d-flex h-100">
+            <div class="col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
+              <h2 class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">Heading one</h2>
+              <h3 class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">RC Kathmandu celebrated its 63rd Charter Anniversary Night on Wednesday, 13th April 2022, at Hotel Himalaya, Lalitpur.</h3>
+              <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a href="#" class="btn btn-grad">Purchase Now!</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h-100 bg-overlay-dark-2" style="background-image:url(image/IMG_9122.jpg); background-position: center center; background-size: cover;">
+        <div class="container h-100">
+          <div class="row d-flex h-100">
+            <div class="col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
+              <h2 class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">Heading one</h2>
+              <h3 class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">The team including President Suresh Man Singh, PE Achut Babu Ojha, PP Narayan Krishna Kharel, Club Admin Chair Ashish Jajodia and Service Project Chair Rajendra Gautam monitored KIOCH-Damak Children Hospital on 1 April, 2022.</h3>
+              <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a href="#" class="btn btn-grad">Purchase Now!</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="position-relative bg-light">
   <div class="container">
     <div class="row justify-content-between align-items-center">

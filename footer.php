@@ -96,7 +96,6 @@
 <script src="assets/vendor/glightbox/js/glightbox.js"></script>
 <script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
-
 <script src="assets/js/index.js"></script>
 
 </body>
