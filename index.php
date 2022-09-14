@@ -12,7 +12,7 @@
             <div class="col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
               <h2 class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">Heading one</h2>
               <h3 class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">RC Kathmandu celebrated its 63rd Charter Anniversary Night on Wednesday, 13th April 2022, at Hotel Himalaya, Lalitpur.</h3>
-              <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a href="#" class="btn btn-grad">Purchase Now!</a></div>
+              <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a href="#" class="btn btn-grad">About US</a></div>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@
             <div class="col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
               <h2 class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">Heading one</h2>
               <h3 class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">The team including President Suresh Man Singh, PE Achut Babu Ojha, PP Narayan Krishna Kharel, Club Admin Chair Ashish Jajodia and Service Project Chair Rajendra Gautam monitored KIOCH-Damak Children Hospital on 1 April, 2022.</h3>
-              <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a href="#" class="btn btn-grad">Purchase Now!</a></div>
+              <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a href="#" class="btn btn-grad">About US</a></div>
             </div>
           </div>
         </div>
