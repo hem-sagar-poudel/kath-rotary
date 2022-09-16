@@ -30,3 +30,19 @@
   height: 0px !important;
 }
 
+
+//latest-news
+.latest-news{
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  &:hover{
+    h5,div{
+      color: #4cbd89 !important;
+    }
+  }
+}
+.text-link{
+  &:hover{
+    color: #4cbd89 !important;
+  }
+}

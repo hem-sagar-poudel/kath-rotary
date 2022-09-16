@@ -281,6 +281,19 @@ a:hover {
   height: 0px !important;
 }
 
+.latest-news {
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+}
+
+.latest-news:hover h5, .latest-news:hover div {
+  color: #4cbd89 !important;
+}
+
+.text-link:hover {
+  color: #4cbd89 !important;
+}
+
 @-webkit-keyframes btn-gradient {
   0% {
     background-position: 0% 50%;

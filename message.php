@@ -7,6 +7,12 @@
       <div class="col-md-12 align-self-center">
         <h1 class="fs-1 fw-bold  my-3">Message from precident</h1>
         <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nam error quam rem.</p>
+        <nav aria-label="breadcrumb" class="mt-3">
+          <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item active"><a href="index.php"><i class="ti-home"></i> Home</a></li>
+            <li class="breadcrumb-item">Message from precident</li>
+          </ol>
+        </nav>
       </div>
     </div>
   </div>

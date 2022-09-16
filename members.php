@@ -8,6 +8,12 @@
         <!-- <h6 class="display-6 fw-bold mt-9 mb-0">Call us at (+251) 854-6308</h6> -->
         <h1 class="fs-1 fw-bold  my-3">Members / Leaders/ Advocacy Board</h1>
         <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nam error quam rem.</p>
+        <nav aria-label="breadcrumb" class="mt-3">
+          <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item active"><a href="index.php"><i class="ti-home"></i> Home</a></li>
+            <li class="breadcrumb-item">Members</li>
+          </ol>
+        </nav>
       </div>
     </div>
   </div>

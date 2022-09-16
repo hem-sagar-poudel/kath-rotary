@@ -7,6 +7,12 @@
       <div class="col-md-12 align-self-center">
         <!-- <h6 class="display-6 fw-bold mt-9 mb-0">Call us at (+251) 854-6308</h6> -->
         <h1 class="fs-1 fw-bold  my-3">Contact Us</h1>
+        <nav aria-label="breadcrumb" class="mt-3">
+          <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item active"><a href="index.php"><i class="ti-home"></i> Home</a></li>
+            <li class="breadcrumb-item">Contact</li>
+          </ol>
+        </nav>
       </div>
     </div>
   </div>
